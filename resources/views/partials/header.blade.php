@@ -1,1 +1,0 @@
-<h1 class="text-uppercase mt-3 text-center">lista film </h1>

@@ -16,4 +16,10 @@ class PageController extends Controller
         
     }
 
+    public function singleMovie($index){
+        $movie = Movie::find($index);
+        return view('singleMovie', compact('movie'));
+        
+    }
+
 }

@@ -7,7 +7,9 @@
   @include('partials.head-imports')
 </head>
 <body>
-  @include('partials.header')
+  <header>
+    <h1 class="text-uppercase mt-3 text-center">@yield('header-title')</h1>
+  </header>
   <main>
     @yield('main-content')
   </main>
