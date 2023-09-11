@@ -8,12 +8,8 @@
 </head>
 <body>
   @include('partials.header')
-  <i class="fa-solid fa-arrow-right"></i>
   <main>
     @yield('main-content')
   </main>
-
-  @include('partials.footer')
- @include('partials.body-imports')
 </body>
 </html>
